@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 21.378 s <<< FAILURE! - in TestSuite
+Tests1 on Tests1(Selleniun_start_projects.Selleniun_start_projects.passwordTest)(Selleniun_start_projects.Selleniun_start_projects.passwordTest)  Time elapsed: 5.899 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Valid Value]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.passwordTest.Tests1(passwordTest.java:35)
+
+Tests2 on Tests2(Selleniun_start_projects.Selleniun_start_projects.passwordTest)(Selleniun_start_projects.Selleniun_start_projects.passwordTest)  Time elapsed: 4.842 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Invalid Value]> but was:<[]>
+	at Selleniun_start_projects.Selleniun_start_projects.passwordTest.Tests2(passwordTest.java:45)
+
